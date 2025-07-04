@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package orroutes;
 
-import "routes/types.proto";
+import "orroutes/types.proto";
 
 service RouteService {
   rpc CreateRoute(orroutes.CreateRouteRequest) returns (orroutes.CreateRouteResponse);

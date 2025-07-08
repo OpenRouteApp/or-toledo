@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package orroutes;
+import "google/protobuf/timestamp.proto";
 
-import "google/protobuf/wrappers.proto";
+package common.types.v1;
 
 message Coordinate {
   double latitude = 1;

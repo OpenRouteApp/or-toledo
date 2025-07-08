@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package routes.v1;
+
+import "common/types/v1/types.proto";
+
+service RouteService {
+  rpc CreateRoute(common.types.v1.CreateRouteRequest) returns (common.types.v1.CreateRouteResponse);
+  rpc GetRoute(common.types.v1.GetRouteRequest) returns (common.types.v1.GetRouteResponse);
+}

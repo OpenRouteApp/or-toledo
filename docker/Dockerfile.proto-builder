@@ -1,0 +1,5 @@
+# Image with Buf for protocol buffer misc tools
+FROM bufbuild/buf:latest
+WORKDIR /build
+
+

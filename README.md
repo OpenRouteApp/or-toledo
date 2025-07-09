@@ -1,6 +1,6 @@
 # Open Route Toledo
 
-> Las fábricas de Damasco y Fez, las de Reims, Toula y Solingen, no han podido 
+> Las fábricas de Damasco y Fez, las de Reims, Toula y Solingen, no han podido
 > jamás, ni hoy pueden semejar siquiera, el temple de nuestras espadas
 > toledanas, y solo lo han conseguido, si acaso, en la falsa marca que de las
 > toledanas hojas sacaron algunas de aquellas.
@@ -10,7 +10,7 @@
 Toledo is the central builder for the Protocol Buffers that define the
 communication of the different componentes of Open Route.
 
-## Philosophy 
+## Philosophy
 
 The idea behind this repository is to provide a standard procedure to compile
 source files for the protocol buffer api. All repositories that need to
@@ -31,6 +31,7 @@ This should be easly extensible.
 
 ## Usage
 
-Type `make` and the source files will be generated under `/gen`.
+Type `./toledo.sh <service> <lang>` and the source files will be generated
+under `/gen/<lang>`.
 
 

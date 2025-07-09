@@ -1,0 +1,10 @@
+version: v2
+managed:
+  enabled: true
+plugins:
+  # Rust Procol Buffer code
+  - remote: buf.build/community/neoeinstein-prost
+    out: gen/rust
+  # Rust GRPC code
+  - remote: buf.build/community/neoeinstein-tonic
+    out: gen/rust

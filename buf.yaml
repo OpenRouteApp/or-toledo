@@ -1,6 +1,6 @@
 version: v2   # Buf configuration version
 modules:
-  - path: proto/babieca
+  - path: proto
 lint:
   use:
     - STANDARD

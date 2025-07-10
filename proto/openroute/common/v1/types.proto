@@ -2,7 +2,7 @@ syntax = "proto3";
 
 import "google/protobuf/timestamp.proto";
 
-package common.types.v1;
+package openroute.common.v1;
 
 message Coordinate {
   double latitude = 1;

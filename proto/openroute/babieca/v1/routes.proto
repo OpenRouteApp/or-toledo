@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package openroute.babieca.v1;
+
+import "openroute/common/v1/types.proto";
+
+service RouteService {
+  rpc CreateRoute(common.v1.CreateRouteRequest) returns (common.v1.CreateRouteResponse);
+  rpc GetRoute(common.v1.GetRouteRequest) returns (common.v1.GetRouteResponse);
+}

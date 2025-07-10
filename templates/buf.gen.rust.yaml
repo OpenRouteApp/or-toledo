@@ -4,7 +4,11 @@ managed:
 plugins:
   # Rust Procol Buffer code
   - remote: buf.build/community/neoeinstein-prost
-    out: gen/rust
+    out: .
   # Rust GRPC code
   - remote: buf.build/community/neoeinstein-tonic
-    out: gen/rust
+    out: .
+inputs:
+  - directory: proto
+    paths:
+      - proto/common

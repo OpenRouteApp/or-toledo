@@ -26,6 +26,7 @@ project.
 
 Toledo is WIP, so currently the only supported languages are:
 - Rust
+- TypeScript
 
 This should be easly extensible.
 
@@ -33,5 +34,3 @@ This should be easly extensible.
 
 Type `./toledo.sh <service> <lang>` and the source files will be generated
 under `/gen/<lang>`.
-
-

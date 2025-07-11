@@ -1,0 +1,8 @@
+FROM bufbuild/buf:latest
+WORKDIR /build/
+
+# Install JS proto compiler
+RUN apk add --update nodejs npm
+# Install protoc-gen-es locally
+RUN npm install -g protoc-gen-ts
+
